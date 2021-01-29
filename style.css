@@ -407,12 +407,14 @@ footer{
 
 }
 
-@media (min-width:1101px) and (max-width:1500px){   
+@media (min-width:1101px) and (max-width:1440px){   
 
    
     #bancos{
-        margin-left: 0px;
-        background-color: #285189;
+        position: relative;
+        left: 90px;
+        margin-left: 5px;
+        background-color:#285189 ;
         max-width:1200px;
         height: 420px;
         border-radius: 80px;
@@ -448,6 +450,41 @@ footer{
         position: relative;
         top:-310px;
         left: -60px;
+       
+    
+    }
+
+
+}
+
+@media (min-width:1440px) and (max-width:1500px){   
+
+   
+    #bancos{
+        position: relative;
+        left: 125px;
+        margin-left: 5px;
+        background-color:#285189 ;
+        max-width:1200px;
+        height: 420px;
+        border-radius: 80px;
+    }
+    #app{
+        background-color:  #285189 ;
+        max-width: 100%;
+        border-radius: 80px;
+        height: 420px;
+    }
+    #corpo{
+        padding-left: 20%;
+        padding-top:5%;
+    }
+    
+    #simulacao{
+        float:right;
+        position: relative;
+        top:-310px;
+        left: -100px;
        
     
     }
