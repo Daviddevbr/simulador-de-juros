@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" size="150x150" href="img/android-chrome-144x144.png">
+    <title>Simulador de juros R$</title>
+</head>
+<body>
+    
+    <header>
+        <div id="titulo">
+
+            <img id="logotitulo" src="img/logo2.png" id="imglogo">
+           
+            <h1 id="tituloheader">Simulador de juros</h1>
+            
+        </div>
+    </header>
+
+    <section>
+
+        <aside id="intro"> 
+
+            <h1 id="tituloapp"> Simulação de Juros </h1>
+            <p id="sobreapp"> Realise uma simulação de juros selecione o banco <br>
+            de sua preferencia ou selecione uma taxa de juros de sua escolha</p>
+        
+        </aside>
+        <article id="bancos">
+
+            <ul id="logodireita">
+                <li><img class="bancologo" src="img/logobradesco.png"></li>
+                <input class="escolha" type="radio" name="escolhaban" value="6.00">
+                <aside class="legenda"><p>A taxa de juros<br>
+                    aproximada é 6,00% a.m</p></aside>
+
+                <li><img class="bancologo" src="img/logobrasil.png"></li>
+                <input class="escolha" type="radio" name="escolhaban" value="5.89">
+                <aside class="legenda"><p>A taxa de juros<br>
+                    aproximada é 5,89% a.m</p></aside>
+
+
+            </ul>
+
+            <ul id="logoesquerda">
+                
+                <li><img class="bancologo" src="img/logocaixa.png"></li>
+                <input class="escolha" type="radio" name="escolhaban" value="3.29">
+                <aside class="legenda"><p>A taxa de juros<br>
+                    aproximada é 3,29% a.m</p></aside>
+
+
+                <li><img class="bancologo" src="img/logonubank.png"></li>
+                <input class="escolha" type="radio" name="escolhaban" value="5.15">
+                <aside class="legenda"><p>A taxa de juros<br>
+                    aproximada é 5,15% a.m</p></aside>
+            </ul>
+            <article id="app">
+
+                <aside id="corpo">
+                <p class="sub">Insira o capital</p>
+                <input type="number" placeholder="  R$" name="capital" id="capital" >
+                <p class="sub">Insira a taxa de Juros</p>
+                <input type="number" placeholder="  %" name="taxajuros" id="taxajuros" >
+                <p class="sub">Insira o periodo em meses</p>
+                <input type="number" placeholder="3 anos = 36 més" id="tempo">
+                </aside>
+
+         
+                
+            </article>
+            <article id="simulacao">
+            <aside id="simulacaosimulacao">
+                <input type="button" value="Calcular" id="acao" name="acao">
+                <p id="jurostoal"> Juros total a pagar</p>
+                <input type="text" valule="jurostoal" id="totalju" name="totalju" placeholder="Total de juros" disabled="disabled">
+                <p id="motante"> Valor Total a pagar</p>
+                <input type="text" name="capital" placeholder="Total a pagar" id="valorfinal" disabled="disabled">
+            </aside>
+            </article>
+            
+        </article>
+
+        <div id="introapp">
+
+            <aside id="basejuros"> 
+                <p id="quadro">O quadro acima traz uma base com a taxa<br>
+                aproximada do juros de cada banco </p> </aside>
+
+        </div>
+
+        <article id="corpojuros">
+            <h1 id=#titulojuros>O que é Juros Composto</h1>
+            <p id="txtjuros">
+                Os Juros Compostos são calculados levando em conta a atualização do capital, ou seja,
+                o juro incide não apenas no valor inicial, mas também sobre os juros acumulados (juros sobre juros).
+                Esse tipo de juros, chamado também de “capitalização acumulada”, é muito utilizado
+                nas transações comerciais e financeiras (sejam dívidas, empréstimos ou investimentos).
+            </p>
+            <h1>Fórmula: Como Calcular os Juros Compostos</h1>
+
+            <p>
+                M = C (1+i)t
+
+                Onde,
+
+                M: montante
+                C: capital
+                i: taxa fixa
+                t: período de tempo
+
+                Para substituir na fórmula, a taxa deverá estar escrita na forma de número decimal. Para isso, basta dividir o valor dado por 100. Além disso, a taxa de juros e o tempo devem se referir à mesma unidade de tempo.
+
+                Se pretendemos calcular somente os juros, aplicamos a seguinte fórmula:
+
+                J = M - C
+            </p>
+
+        </article>
+    </section>
+
+    <footer>
+        <div id="copy">
+            <p>Todos direitos resevados<br>
+             @casterdev</p>
+
+             <P>confira o nosso app na playstore</p>
+             <img id="playstore" src="img/playstory.png">
+         
+         </div>
+    </footer>
+
+
+<script src="script.js" defer></script>
+</body>
+</html>

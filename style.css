@@ -1,0 +1,455 @@
+@font-face {
+    font-family: 'recoletaregular_demo';
+    src: url('fonts/recoleta-regulardemo-webfont.woff2') format('woff2'),
+         url('fonts/recoleta-regulardemo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'money_money_moneyregular';
+    src: url('fonts/money_money_money-webfont.woff2') format('woff2'),
+         url('fonts/money_money_money-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_novamedium';
+    src: url('fonts/hk-nova-medium-webfont.woff2') format('woff2'),
+         url('fonts/hk-nova-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+    background-color: #2f5b9a;
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'hk_novamedium';   
+   
+    
+}
+
+header{
+    margin-bottom: 100px;
+}
+#intro{
+    margin-left: 15%;
+
+}
+#tituloapp{
+    font-size: 30px;
+}
+#tituloheader,#logotitulo{
+    position: relative;
+    top:20px;
+    left: 15%;
+    font-family: 'recoletaregular_demo';
+    display: inline;
+  
+}
+
+#tituloheader{
+   top:-10px;
+    font-size: 90px;
+}
+
+#sobreapp{
+    font-size: 20px;
+}
+
+#bancos{
+    margin-left: 15%;
+    background-color: #285189;
+    max-width: 70%;
+    height: 420px;
+    border-radius: 80px;
+}
+
+ul{
+    float: left;
+    text-align: center;
+    list-style: none;
+}
+
+#logoesquerda{
+    padding-right: 100px;
+  
+}
+
+#app{
+    background-color:  #285189 ;
+    max-width: 100%;
+    border-radius: 80px;
+    height: 420px;
+}
+
+
+
+#corpo{
+    padding-left: 20%;
+    padding-top:5%;
+}
+
+#simulacao{
+    float:right;
+    position: relative;
+    top:-310px;
+    left: -60px;
+   
+
+}
+
+#capital,#taxajuros,#tempo{
+
+    outline: none;
+    height: 50px;
+    font-size: 20px;
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    
+}
+#acao{
+   
+    width: 150px;
+    height: 40px;
+    background-color: #1f82bd;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    font-family: 'hk_novamedium';
+    position: relative;
+    color: white;
+    
+}
+#acao:hover{
+    background-color:  #1f83bda9;
+      
+}
+#totalju{
+
+    outline: none;
+    height: 50px;
+    font-size: 20px;
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    
+
+}
+#valorfinal{
+    
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: white;
+    
+}
+
+#introapp{
+    margin-top:0px;
+    clear: both;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 150px;
+
+}
+
+#basejuros{
+ 
+    font-size: 45px;
+    color: #6f8fb8;
+   
+}
+#corpojuros{
+    max-width: 40%;
+    margin-left: 15%;
+    margin-bottom: 15%;
+   
+}
+
+footer{
+
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color:  #285189 ;
+    height: 240px;
+}
+
+#copy{
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 50px;
+
+    
+}
+
+@media (min-width:319px) and (max-width:700px) {
+
+    body{
+        text-align: start;
+    }
+    
+    #titulo{
+        max-width: 280px;
+    }
+
+    #logotitulo{
+        left: 10px;
+    }
+
+    #tituloheader{
+        float:right;
+        left: 20px;
+        font-size: 40px;
+        max-width: 50%;
+        top: -120px;
+        
+        
+    }
+
+    #bancos{
+        margin: 0px;
+        max-width: 100%;
+        border-radius: 20px;
+    }
+
+    #logodireita{
+        max-width: 50%;
+        font-size: 10px;
+        border-radius: 20px;
+      
+    }
+    #logoesquerda{
+        float:right;
+        max-width: 50%;
+        font-size: 10px;
+        margin: 0px;
+        padding: 0px;
+        padding-right: 10px;
+        text-align: center;
+        border-radius: 20px;
+        
+    }
+    .bancologo{
+        width: 90px;
+
+    }
+    #app{
+        clear: both;
+        text-align: center;
+        padding-top: 10px;
+        max-width: 100%;
+        height: 400px;
+        border-radius: 20px;
+        background-color:  #285189 ;
+    }
+    #corpo{
+        
+        padding-left: 0;
+        text-align: center;
+        background-color:  #285189 ;
+        
+    }
+    #simulacao{
+        left: 0px;
+        top:-50px;
+        clear: both;
+        text-align: center;
+        padding-top: 10px;
+        width: 100%;
+        height: 400px;
+        border-radius: 20px;
+        background-color:  #285189 ;
+    }
+    
+
+    #simulacaosimulacao{
+        
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #corpojuros{
+        max-width: 100%;
+        margin-left: 5%;
+        margin-bottom: 15%;
+        font-size: 25px;
+        text-align: start;
+    }
+}
+
+@media (min-width:701px) and (max-width: 930px){
+
+    header{
+        position: relative;
+        left:-80px;
+    }
+    #intro{
+        margin-left: 10px;
+    }
+    #bancos{
+        margin: 0px;
+        max-width: 100%;
+        border-radius: 20px;
+    }
+
+    #logodireita{
+        max-width: 100px;
+        font-size: 10px;
+        border-radius: 20px;
+        padding-left: 250px;
+      
+    }
+    #logoesquerda{
+        float:right;
+        max-width: 100px;
+        font-size: 10px;
+        margin: 0px;
+        padding: 0px;
+        padding-right: 250px;
+        text-align: center;
+        border-radius: 20px;
+        
+    }
+    .bancologo{
+        width: 90px;
+
+    }
+    #app{
+        clear: both;
+        text-align: center;
+        padding-top: 10px;
+        max-width: 100%;
+        height: 400px;
+        border-radius: 20px;
+        background-color:  #285189 ;
+    }
+    #corpo{
+        
+        padding-left: 0;
+        text-align: center;
+        background-color:  #285189 ;
+        
+    }
+    #simulacao{
+        left: 0px;
+        top:-0px;
+        clear: both;
+        text-align: center;
+        padding-top: 10px;
+        width: 100%;
+        height: 400px;
+        border-radius: 20px;
+        background-color:  #285189 ;
+    }
+    
+
+ 
+}
+
+@media (min-width:931px) and (max-width:1074px){   
+
+   
+    #bancos{
+        margin-left: 1%;
+        background-color: #285189;
+        max-width: 100%;
+        height: 420px;
+        border-radius: 80px;
+    }
+    
+    
+    
+    #app{
+        
+        background-color:  #285189 ;
+        
+        border-radius: 80px;
+        height: 420px;
+    }
+    
+    
+    
+    #corpo{
+        position: relative;
+        width: 1000px;
+        left: -70px;
+        padding-top:5px;
+        padding-left: 0px;
+    
+    }
+    
+    #simulacao{
+        float:right;
+        position: relative;
+        top:-350px;
+        left: -60px;
+       
+    }
+
+}
+
+@media (min-width:1440px) and(max-width:1500){   
+
+   
+    #bancos{
+        margin-left: 15%;
+        background-color: #285189;
+        max-width: 80%;
+        height: 420px;
+        border-radius: 80px;
+    }
+    
+    ul{
+        float: left;
+        text-align: center;
+        list-style: none;
+    }
+    
+    #logoesquerda{
+        padding-right: 100px;
+      
+    }
+    
+    #app{
+        background-color:  #285189 ;
+        max-width: 100%;
+        border-radius: 80px;
+        height: 420px;
+    }
+    
+    
+    
+    #corpo{
+        padding-left: 20%;
+        padding-top:5%;
+    }
+    
+    #simulacao{
+        float:right;
+        position: relative;
+        top:-310px;
+        left: -60px;
+       
+    
+    }
+
+}
