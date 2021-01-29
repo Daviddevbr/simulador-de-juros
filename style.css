@@ -296,7 +296,7 @@ footer{
     }
 }
 
-@media (min-width:701px) and (max-width: 930px){
+@media (min-width:701px) and (max-width: 1050px){
 
     header{
         position: relative;
@@ -365,7 +365,7 @@ footer{
  
 }
 
-@media (min-width:931px) and (max-width:1074px){   
+@media (min-width:1051px) and (max-width:1100px){   
 
    
     #bancos{
@@ -407,13 +407,13 @@ footer{
 
 }
 
-@media (min-width:1440px) and(max-width:1500){   
+@media (min-width:1101px) and (max-width:1500px){   
 
    
     #bancos{
-        margin-left: 15%;
+        margin-left: 0px;
         background-color: #285189;
-        max-width: 80%;
+        max-width:1200px;
         height: 420px;
         border-radius: 80px;
     }
@@ -451,5 +451,6 @@ footer{
        
     
     }
+
 
 }
